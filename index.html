@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>My Art Portfolio</title>
+
+    <meta name="description" content="portfolio of a digital artist and illustrator">
+    <meta name="keywords" content="Digital Art, Illustration, Artist, portfolio">
+    <meta name="author" content="Joneer"> <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap" rel="stylesheet">
+
+    <style>
+        h1,
+        h2,
+        h3 {
+            font-family: 'Caveat', cursive;
+        }
+
+        .stats-container {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            padding: 40px 20px;
+        }
+
+        .stat-box {
+            background-color: darkslategray;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+            min-width: 150px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, .1);
+        }
+
+        .stat-box h3 {
+            font-size: 2rem;
+            margin: 0 0 5px 0;
+            color: #ffffff;
+        }
+
+        .stat-box p {
+            font-size: 1rem;
+            margin: 0;
+            color: #e0e0e0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!--=================HEADER=================-->
+
+    <header>
+
+        <nav class="navbar">
+
+            <div class="logo">
+                <h1>joneer Arts</h1>
+            </div>
+
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <button id="theme-toggle">
+                🌙
+            </button>
+
+        </nav>
+    </header>
+
+    <!--================= HERO SECTION =================-->
+
+    <section id="home">
+
+        <div class="hero-content">
+
+            <h2>Hello,I'm</h2>
+
+            <h1>Joneer</h1>
+
+            <p>
+                Digital Artist . Illustrator . Character Designer
+            </p>
+
+            <a href="#gallery" class="btn">
+                View Gallery
+            </a>
+
+        </div>
+
+    </section>
+
+    <!--========== STATISTICS ==========-->
+
+    <section id="statistics">
+
+        <h2>MY Journey</h2>
+
+        <div class="stats-container">
+
+            <div class="stat-box">
+                <h3>150+</h3>
+                <p>Artworks</p>
+            </div>
+
+            <div class="stat-box">
+                <h3>5+</h3>
+                <p>Years Experience</p>
+            </div>
+
+            <div class="stat-box">
+                <h3>30+</h3>
+                <p>Clients</p>
+            </div>
+
+            <div class="stat-box">
+                <h3>12</h3>
+                <p>Awards</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!--==========GALLERY==========-->
+
+    <section id="gallery">
+
+        <h2>Gallery</h2>
+
+        <div class="filter-buttons">
+
+            <button>All</button>
+            <button>Digital Art</button>
+            <button>Sketches</button>
+            <button>Paintings</button>
+            <button>Character Design</button>
+
+        </div>
+
+        <div class="gallery-grid">
+
+            <div class="art-card">
+
+                <img src="images/art.jpg" alt="Artwork 1">
+
+                <h3>Fantasy Girl</h3>
+
+            </div>
+
+            <div class="art-card">
+
+                <img src="images/art2.jpg" alt="Artwork 2">
+
+                <h3>Cyber City</h3>
+
+            </div>
+
+            <div class="art-card">
+
+                <img src="images/art3.jpg" alt="Artwork 3">
+
+                <h3>Character Design</h3>
+
+            </div>
+
+            <div class="art-card">
+
+                <img src="images/art4.jpg" alt="Artwork 4">
+
+                <h3>Digital painting</h3>
+
+            </div>
+
+            <div class="art-card">
+
+                <img src="images/art5.jpg" alt="Artwork 5">
+
+                <h3>Animal Style</h3>
+
+            </div>
+
+            <div class="art-card">
+
+                <img src="images/art6.jpg" alt="Artwork 6 ">
+
+                <h3>Landscape</h3>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    
